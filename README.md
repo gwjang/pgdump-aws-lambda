@@ -33,6 +33,7 @@ It can be configured to run periodically using CloudWatch events.
     ```json
     {
         "PGDATABASE": "dbname",
+        "PGSCHEMA": "public",
         "PGUSER": "postgres",
         "PGPASSWORD": "password",
         "PGHOST": "host",
@@ -66,6 +67,7 @@ You can add an encryption key to your event, e.g.
 ```json
 {
     "PGDATABASE": "dbname",
+    "PGSCHEMA": "public",
     "PGUSER": "postgres",
     "PGPASSWORD": "password",
     "PGHOST": "host",

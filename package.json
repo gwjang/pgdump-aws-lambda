@@ -4,7 +4,9 @@
   "description": "Lambda function for executing pg_dump and streaming the output to s3.",
   "main": "index.js",
   "dependencies": {
-    "moment": "2.29.4"
+    "moment": "2.29.4",
+    "parquetjs": "github:ironSource/parquetjs#9cc7b4d",
+    "pg": "^8.11.5"
   },
   "devDependencies": {
     "aws-sdk": "2.1240.0",
