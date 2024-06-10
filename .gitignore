@@ -39,3 +39,5 @@ jspm_packages
 
 # IntelliJ files
 .idea/
+
+.env
